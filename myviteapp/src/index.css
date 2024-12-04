@@ -1,0 +1,345 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body{
+    
+  } */
+  /* header{
+    background-color: black;
+    color: aliceblue;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  } */
+  
+  /* #child{
+    height: 100vh;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+  
+  #box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid red;
+   gap: 10px;
+   line-height:40px ;
+   row-gap: 20px;
+   margin-top: 10px;
+   flex-direction: column;
+   width: 400px;
+
+   margin: 10px;
+   padding: 10px;
+   
+  
+  }
+  #lang{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   text-align: left;
+   
+  }
+  
+  #branch{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   text-align: left;
+   
+  } */
+
+  /* #right{
+    flex-basis: 90%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    
+    /* background-color: aqua; */
+ 
+  /* }
+
+  #left{
+    flex-basis: 90%;
+    text-align: right;
+    /* background-color: rgb(255, 0, 217); */
+  /* }
+
+  div{
+    text-align: left;
+    
+  } */
+  /* a{
+    padding: 10px;
+  } */ 
+
+
+
+  /* div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+
+  /* whenever we handling native dom elements or react element
+
+  dont use over ref because its afecting our web page becasue it is imparitive , without using vertual dom we 
+  will use real dom ..
+  If you want to media plaback creating animation focus value you can you useRef 
+  
+  example
+
+  Ref will reture an object
+  object will have property called current property this think help you to add any manupulation
+  
+  
+  */
+
+  /* Example styles */
+/* .light-mode {
+  background-color: #f0f0f0;
+  color: #333;
+  height: 100%;
+}
+video{
+  height: 100vh;
+  width: 100%;
+}
+.dark-mode {
+  background-color: #333;
+  color: #f0f0f0;
+  height: 100%;
+} */
+
+
+/* Nav Bar */
+
+#nav{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid black;
+  justify-content: flex-end;
+
+}
+a{
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+.active{
+  background-color: orange;
+  color: white;
+}
+
+main{
+  
+  height: 500px;
+  width: 350px;
+  margin: 3px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: aliceblue;
+  overflow: hidden;
+  
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    transition: transform .2s; 
+}
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 2px 2px  2px 2px rgb(77, 71, 71); 
+}
+
+#box{
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+#rating{
+    background-color: green;
+   padding: 0px;
+    height: 20px;
+    width: 40px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 5px;
+}
+h2{
+    font-size: 18px;
+    background-color: aliceblue;
+}
+#name{
+    padding-top: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+.main-content {
+  text-align: center;
+  margin-top: 20px;
+}
+.main-content h1 {
+  font-size: 2.5em;
+}
+.main-content p {
+  font-size: 1.2em;
+} */
+
+
+ footer{
+ 
+  width: 100%;
+ 
+  
+   background-color: red; 
+   
+}
+
+#footer{
+  display: flex;
+   align-items: center;
+  justify-content: space-evenly;
+}
+#left{
+   flex-basis: 30%;
+   background-color: rgb(255, 0, 0);
+   height: 200px;
+   
+}
+#mid{
+  flex-basis: 30%;
+  background-color: rgb(47, 0, 255);
+  height: 200px;
+}
+
+#right{
+  flex-basis: 40%;
+  background-color: rgb(255, 0, 225);
+  height: 200px;
+}
+
+
+
+
+/* Form */
+
+/* Basic form container styling */
+/* .form-container {
+  width: 40%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Fieldset styling */
+/* fieldset {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+} */
+
+/* Form title (legend) */
+/* legend {
+  font-size: 1.5em;
+  color: #333;
+  padding: 0 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form groups (label and input elements) */
+/* .form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+} */
+
+/* Label styling */
+/* .form-group label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #555;
+} */
+
+/* Input and select fields styling */
+/* .form-group input, .form-group select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  color: #333;
+  width: 100%;
+} */
+
+/* Radio group (for gender) */
+/* .radio-group label {
+  margin-right: 20px;
+  color: #333;
+} */
+
+/* Checkbox group */
+/* .checkbox-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  
+} */
+
+/* Submit button */
+/*
+.submit-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+} */
+
+/* Button hover effect */
+/* .submit-btn:hover {
+  background-color: #45a049;
+} */
+
+/* Responsive design for smaller screens */
+/* @media (max-width: 768px) {
+  .form-container {
+      width: 90%;
+  }
+}  */

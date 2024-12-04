@@ -1,0 +1,26 @@
+{
+  "user": [
+    {
+      "id": "48f8",
+      "name": "Nitin",
+      "email": "nitin1@gmail.com",
+      "phone": "7620483148"
+    }
+  ],
+  "users": [
+    {
+      "id": "1b54",
+      "email": "nitin@gmail.com",
+      "phone": "7620483148",
+      "password": "pass",
+      "confirmPassword": "pass"
+    },
+    {
+      "id": "3f13",
+      "email": "nitin@gmail.com",
+      "phone": "7620483148",
+      "password": "pass",
+      "confirmPassword": "pass"
+    }
+  ]
+}
